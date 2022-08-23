@@ -1,0 +1,1 @@
+A macro crate for the square-os crate

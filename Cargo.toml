@@ -1,0 +1,20 @@
+[package]
+name = "square-ox-derive"
+version = "0.1.0"
+edition = "2021"
+authors = [ "Emil Hofstetter<emil.k.hofstetter@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "A macro crate for deriving the builders used by the square-ox crate."
+readme = ""
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0"
+syn = "1.0.99"
+
+[dev-dependencies]
+square-ox = "0.1.2"
